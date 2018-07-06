@@ -429,7 +429,7 @@ Below are all the original and social icons from Entypo that you can choose from
 
 Entypo icons can be placed in just about any other element, so long as they are a separate HTML element (e.g., a `<span>`). See the examples below for how to put them to use.
 
-{% example html %}
+{% raw %}
 <button class="btn btn-secondary" type="button">
   <span class="icon icon-thumbs-up"></span>
   Like
@@ -438,9 +438,9 @@ Entypo icons can be placed in just about any other element, so long as they are 
   <span class="icon icon-thumbs-up"></span>
   Liked!
 </button>
-{% endexample %}
+{% endraw %}
 
-{% example html %}
+{% raw %}
 <ul class="nav nav-pills">
   <li class="nav-item">
     <a class="nav-link active" href="#">
@@ -461,4 +461,4 @@ Entypo icons can be placed in just about any other element, so long as they are 
     </a>
   </li>
 </ul>
-{% endexample %}
+{% endraw %}

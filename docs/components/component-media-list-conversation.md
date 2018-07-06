@@ -1,6 +1,6 @@
 ## Media list conversation
 
-{% example html %}
+{% raw %}
 <ul class="media-list media-list-conversation c-w-md">
   <li class="media media-current-user mb-4">
     <div class="media-body">
@@ -35,4 +35,4 @@
     </div>
   </li>
 </ul>
-{% endexample %}
+{% endraw %}

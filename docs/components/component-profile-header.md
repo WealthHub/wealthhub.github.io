@@ -3,7 +3,7 @@
 Simple profile headers to show off a user's profile information
 
 
-{% example html %}
+{% raw %}
 <div class="profile-header text-center" style="background-image: url({{ relative }}assets/img/iceland.jpg); ">
   <div class="container-fluid">
     <div class="container-inner">
@@ -26,4 +26,4 @@ Simple profile headers to show off a user's profile information
     </ul>
   </nav>
 </div>
-{% endexample %}
+{% endraw %}
