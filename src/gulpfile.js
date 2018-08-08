@@ -15,24 +15,24 @@ var replace      = require('gulp-replace')
 var wrapper      = require('gulp-wrapper')
 
 var Paths = {
-  HERE                 : './',
+  HERE                 : '../',
   DIST                 : 'dist',
   DIST_TOOLKIT_JS      : 'dist/toolkit.js',
-  SCSS_TOOLKIT_SOURCES : './scss/toolkit*',
-  SCSS                 : './scss/**/**',
+  SCSS_TOOLKIT_SOURCES : '../scss/toolkit*',
+  SCSS                 : '../scss/**/**',
   JS                   : [
-      "./js/bootstrap/util.js",
-      "./js/bootstrap/alert.js",
-      "./js/bootstrap/button.js",
-      "./js/bootstrap/carousel.js",
-      "./js/bootstrap/collapse.js",
-      "./js/bootstrap/dropdown.js",
-      "./js/bootstrap/modal.js",
-      "./js/bootstrap/tooltip.js",
-      "./js/bootstrap/popover.js",
-      "./js/bootstrap/scrollspy.js",
-      "./js/bootstrap/tab.js",
-      './js/custom/*'
+      "../js/bootstrap/util.js",
+      "../js/bootstrap/alert.js",
+      "../js/bootstrap/button.js",
+      "../js/bootstrap/carousel.js",
+      "../js/bootstrap/collapse.js",
+      "../js/bootstrap/dropdown.js",
+      "../js/bootstrap/modal.js",
+      "../js/bootstrap/tooltip.js",
+      "../js/bootstrap/popover.js",
+      "../js/bootstrap/scrollspy.js",
+      "../js/bootstrap/tab.js",
+      '../js/custom/*'
     ]
 }
 
@@ -60,7 +60,7 @@ gulp.task('watch', function () {
 
 gulp.task('docs', ['server'], function () {
   gulp.src(__filename)
-    .pipe(open({uri: 'http://localhost:9001/docs/'}))
+    .pipe(open({uri: 'http://localhost:9001/'}))
 })
 
 gulp.task('server', function () {
