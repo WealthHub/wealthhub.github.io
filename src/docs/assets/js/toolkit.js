@@ -17,8 +17,6 @@ if (typeof jQuery === 'undefined') {
 
 
 +function () {
-'use strict';
-
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -203,14 +201,14 @@ var Alert = function ($) {
     ALERT: 'alert',
     FADE: 'fade',
     SHOW: 'show'
+
+    /**
+     * ------------------------------------------------------------------------
+     * Class Definition
+     * ------------------------------------------------------------------------
+     */
+
   };
-
-  /**
-   * ------------------------------------------------------------------------
-   * Class Definition
-   * ------------------------------------------------------------------------
-   */
-
   var Alert = function () {
     function Alert(element) {
       _classCallCheck(this, Alert);
@@ -383,14 +381,14 @@ var Button = function ($) {
   var Event = {
     CLICK_DATA_API: 'click' + EVENT_KEY + DATA_API_KEY,
     FOCUS_BLUR_DATA_API: 'focus' + EVENT_KEY + DATA_API_KEY + ' ' + ('blur' + EVENT_KEY + DATA_API_KEY)
+
+    /**
+     * ------------------------------------------------------------------------
+     * Class Definition
+     * ------------------------------------------------------------------------
+     */
+
   };
-
-  /**
-   * ------------------------------------------------------------------------
-   * Class Definition
-   * ------------------------------------------------------------------------
-   */
-
   var Button = function () {
     function Button(element) {
       _classCallCheck(this, Button);
@@ -592,14 +590,14 @@ var Carousel = function ($) {
     INDICATORS: '.carousel-indicators',
     DATA_SLIDE: '[data-slide], [data-slide-to]',
     DATA_RIDE: '[data-ride="carousel"]'
+
+    /**
+     * ------------------------------------------------------------------------
+     * Class Definition
+     * ------------------------------------------------------------------------
+     */
+
   };
-
-  /**
-   * ------------------------------------------------------------------------
-   * Class Definition
-   * ------------------------------------------------------------------------
-   */
-
   var Carousel = function () {
     function Carousel(element, config) {
       _classCallCheck(this, Carousel);
@@ -1074,14 +1072,14 @@ var Collapse = function ($) {
   var Selector = {
     ACTIVES: '.show, .collapsing',
     DATA_TOGGLE: '[data-toggle="collapse"]'
+
+    /**
+     * ------------------------------------------------------------------------
+     * Class Definition
+     * ------------------------------------------------------------------------
+     */
+
   };
-
-  /**
-   * ------------------------------------------------------------------------
-   * Class Definition
-   * ------------------------------------------------------------------------
-   */
-
   var Collapse = function () {
     function Collapse(element, config) {
       _classCallCheck(this, Collapse);
@@ -1473,14 +1471,14 @@ var Dropdown = function ($) {
     flip: 'boolean',
     boundary: '(string|element)',
     reference: '(string|element)'
+
+    /**
+     * ------------------------------------------------------------------------
+     * Class Definition
+     * ------------------------------------------------------------------------
+     */
+
   };
-
-  /**
-   * ------------------------------------------------------------------------
-   * Class Definition
-   * ------------------------------------------------------------------------
-   */
-
   var Dropdown = function () {
     function Dropdown(element, config) {
       _classCallCheck(this, Dropdown);
@@ -1922,14 +1920,14 @@ var Modal = function ($) {
     FIXED_CONTENT: '.fixed-top, .fixed-bottom, .is-fixed, .sticky-top',
     STICKY_CONTENT: '.sticky-top',
     NAVBAR_TOGGLER: '.navbar-toggler'
+
+    /**
+     * ------------------------------------------------------------------------
+     * Class Definition
+     * ------------------------------------------------------------------------
+     */
+
   };
-
-  /**
-   * ------------------------------------------------------------------------
-   * Class Definition
-   * ------------------------------------------------------------------------
-   */
-
   var Modal = function () {
     function Modal(element, config) {
       _classCallCheck(this, Modal);
@@ -2530,14 +2528,14 @@ var Tooltip = function ($) {
     FOCUS: 'focus',
     CLICK: 'click',
     MANUAL: 'manual'
+
+    /**
+     * ------------------------------------------------------------------------
+     * Class Definition
+     * ------------------------------------------------------------------------
+     */
+
   };
-
-  /**
-   * ------------------------------------------------------------------------
-   * Class Definition
-   * ------------------------------------------------------------------------
-   */
-
   var Tooltip = function () {
     function Tooltip(element, config) {
       _classCallCheck(this, Tooltip);
@@ -3169,14 +3167,14 @@ var Popover = function ($) {
     FOCUSOUT: 'focusout' + EVENT_KEY,
     MOUSEENTER: 'mouseenter' + EVENT_KEY,
     MOUSELEAVE: 'mouseleave' + EVENT_KEY
+
+    /**
+     * ------------------------------------------------------------------------
+     * Class Definition
+     * ------------------------------------------------------------------------
+     */
+
   };
-
-  /**
-   * ------------------------------------------------------------------------
-   * Class Definition
-   * ------------------------------------------------------------------------
-   */
-
   var Popover = function (_Tooltip) {
     _inherits(Popover, _Tooltip);
 
@@ -3373,14 +3371,14 @@ var ScrollSpy = function ($) {
   var OffsetMethod = {
     OFFSET: 'offset',
     POSITION: 'position'
+
+    /**
+     * ------------------------------------------------------------------------
+     * Class Definition
+     * ------------------------------------------------------------------------
+     */
+
   };
-
-  /**
-   * ------------------------------------------------------------------------
-   * Class Definition
-   * ------------------------------------------------------------------------
-   */
-
   var ScrollSpy = function () {
     function ScrollSpy(element, config) {
       var _this25 = this;
@@ -3676,14 +3674,14 @@ var Tab = function ($) {
     DATA_TOGGLE: '[data-toggle="tab"], [data-toggle="pill"], [data-toggle="list"]',
     DROPDOWN_TOGGLE: '.dropdown-toggle',
     DROPDOWN_ACTIVE_CHILD: '> .dropdown-menu .active'
+
+    /**
+     * ------------------------------------------------------------------------
+     * Class Definition
+     * ------------------------------------------------------------------------
+     */
+
   };
-
-  /**
-   * ------------------------------------------------------------------------
-   * Class Definition
-   * ------------------------------------------------------------------------
-   */
-
   var Tab = function () {
     function Tab(element) {
       _classCallCheck(this, Tab);
@@ -4068,14 +4066,14 @@ var Enter = function ($) {
     easing: 'cubic-bezier(.2,.7,.5,1)',
     duration: 1200,
     delay: 0
+
+    /**
+     * ------------------------------------------------------------------------
+     * Class Definition
+     * ------------------------------------------------------------------------
+     */
+
   };
-
-  /**
-   * ------------------------------------------------------------------------
-   * Class Definition
-   * ------------------------------------------------------------------------
-   */
-
   var Enter = function () {
     function Enter(element, config) {
       _classCallCheck(this, Enter);
@@ -4225,14 +4223,14 @@ var ImageGrid = function ($) {
 
   var Event = {
     RESIZE: 'resize' + EVENT_KEY
+
+    /**
+     * ------------------------------------------------------------------------
+     * Class Definition
+     * ------------------------------------------------------------------------
+     */
+
   };
-
-  /**
-   * ------------------------------------------------------------------------
-   * Class Definition
-   * ------------------------------------------------------------------------
-   */
-
   var ImageGrid = function () {
     function ImageGrid(element, config) {
       _classCallCheck(this, ImageGrid);
@@ -4406,6 +4404,229 @@ var ImageGrid = function ($) {
 
 /**
  * --------------------------------------------------------------------------
+ * Bootstrap (v4.0.0): stage.js
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * --------------------------------------------------------------------------
+ */
+
+var Stage = function ($) {
+
+  /**
+   * ------------------------------------------------------------------------
+   * Constants
+   * ------------------------------------------------------------------------
+   */
+
+  var NAME = 'stage';
+  var DATA_KEY = 'bs.stage';
+  var VERSION = 'v4.0.0';
+  var DATA_API = '[data-toggle="stage"]';
+  var EVENT_KEY = '.' + DATA_KEY;
+  var DATA_API_KEY = '.data-api';
+  var JQUERY_NO_CONFLICT = $.fn[NAME];
+  var TRANSITION_DURATION = 150;
+
+  var Default = {
+    easing: 'cubic-bezier(.2,.7,.5,1)',
+    duration: 300,
+    delay: 0,
+    distance: 250,
+    hiddenElements: '#sidebar'
+  };
+
+  var Event = {
+    TOUCHMOVE: 'touchmove' + EVENT_KEY,
+    KEYDOWN: 'keydown' + EVENT_KEY,
+    OPEN: 'open' + EVENT_KEY,
+    OPENED: 'opened' + EVENT_KEY,
+    CLOSE: 'close' + EVENT_KEY,
+    CLOSED: 'closed' + EVENT_KEY,
+    CLICK: 'click' + EVENT_KEY,
+    CLICK_DATA_API: 'click' + EVENT_KEY + DATA_API_KEY
+  };
+
+  var ClassName = {
+    STAGE_OPEN: 'stage-open',
+    HIDDEN: 'hidden'
+
+    /**
+     * ------------------------------------------------------------------------
+     * Class Definition
+     * ------------------------------------------------------------------------
+     */
+
+  };
+  var Stage = function () {
+    function Stage(element, config) {
+      _classCallCheck(this, Stage);
+
+      if (!Util.supportsTransitionEnd()) return;
+
+      this._element = element;
+      this._config = config;
+    }
+
+    // getters
+
+    // private
+
+    Stage.prototype._isOpen = function _isOpen() {
+      return $(this._element).hasClass(ClassName.STAGE_OPEN);
+    };
+
+    Stage.prototype._complete = function _complete() {
+      $(document.body).css('overflow', 'auto');
+
+      if ('ontouchstart' in document.documentElement) {
+        $(document).off(Event.TOUCHMOVE);
+      }
+
+      $(this._config.hiddenElements).addClass(ClassName.HIDDEN);
+
+      $(this._element).removeClass(ClassName.STAGE_OPEN).css({
+        '-webkit-transition': '',
+        '-ms-transition': '',
+        'transition': ''
+      }).css({
+        '-webkit-transform': '',
+        '-ms-transform': '',
+        'transform': ''
+      }).trigger(Event.CLOSED);
+    };
+
+    // public
+
+    Stage.prototype.toggle = function toggle() {
+      if (this._isOpen()) {
+        this.close();
+      } else {
+        this.open();
+      }
+    };
+
+    Stage.prototype.open = function open() {
+      var _this29 = this;
+
+      $(document.body).css('overflow', 'hidden');
+
+      if ('ontouchstart' in document.documentElement) {
+        $(document).on(Event.TOUCHMOVE, function (e) {
+          e.preventDefault();
+        });
+      }
+
+      $(this._config.hiddenElements).removeClass(ClassName.HIDDEN);
+
+      $(window).one(Event.KEYDOWN, $.proxy(function (e) {
+        e.which == 27 && this.close();
+      }, this));
+
+      $(this._element).on(Event.CLICK, $.proxy(this.close, this)).trigger(Event.OPEN).addClass(ClassName.STAGE_OPEN);
+
+      if (!Util.supportsTransitionEnd()) {
+        $(this._element).css({
+          'left': this._config.distance + 'px',
+          'position': 'relative'
+        }).trigger(Event.OPENED);
+        return;
+      }
+
+      $(this._element).css({
+        '-webkit-transition': '-webkit-transform ' + this._config.duration + 'ms ' + this._config.easing,
+        '-ms-transition': '-ms-transform ' + this._config.duration + 'ms ' + this._config.easing,
+        'transition': 'transform ' + this._config.duration + 'ms ' + this._config.easing
+      });
+
+      this._element.offsetWidth; // force reflow
+
+      $(this._element).css({
+        '-webkit-transform': 'translateX(' + this._config.distance + 'px)',
+        '-ms-transform': 'translateX(' + this._config.distance + 'px)',
+        'transform': 'translateX(' + this._config.distance + 'px)'
+      }).one(Util.TRANSITION_END, function () {
+        $(_this29._element).trigger(Event.OPENED);
+      }).emulateTransitionEnd(this._config.duration);
+    };
+
+    Stage.prototype.close = function close() {
+      $(window).off(Event.KEYDOWN);
+
+      if (!Util.supportsTransitionEnd()) {
+        $(this._element).trigger(Event.CLOSE).css({ 'left': '', 'position': '' }).off(Event.CLICK);
+
+        return this._complete();
+      }
+
+      $(this._element).trigger(Event.CLOSE).off(Event.CLICK).css({
+        '-webkit-transform': 'none',
+        '-ms-transform': 'none',
+        'transform': 'none'
+      }).one(Util.TRANSITION_END, $.proxy(this._complete, this)).emulateTransitionEnd(this._config.duration);
+    };
+
+    // static
+
+    Stage._jQueryInterface = function _jQueryInterface(config) {
+      return this.each(function () {
+        var $this = $(this);
+        var data = $this.data(DATA_KEY);
+        var _config = $.extend({}, Default, $this.data(), (typeof config === 'undefined' ? 'undefined' : _typeof(config)) === 'object' && config);
+
+        if (!data) $this.data(DATA_KEY, data = new Stage(this, _config));
+        if (typeof config === 'string') data[config]();
+      });
+    };
+
+    _createClass(Stage, null, [{
+      key: 'VERSION',
+      get: function get() {
+        return VERSION;
+      }
+    }, {
+      key: 'Default',
+      get: function get() {
+        return Default;
+      }
+    }]);
+
+    return Stage;
+  }();
+
+  /**
+   * ------------------------------------------------------------------------
+   * jQuery
+   * ------------------------------------------------------------------------
+   */
+
+  $.fn[NAME] = Stage._jQueryInterface;
+  $.fn[NAME].Constructor = Stage;
+  $.fn[NAME].noConflict = function () {
+    $.fn[NAME] = JQUERY_NO_CONFLICT;
+    return Stage._jQueryInterface;
+  };
+
+  /**
+   * ------------------------------------------------------------------------
+   * Data Api implementation
+   * ------------------------------------------------------------------------
+   */
+
+  $(document).on(Event.CLICK_DATA_API, DATA_API, function () {
+    var config = $(this).data();
+    var $target = $(this.getAttribute('data-target'));
+
+    if (!$target.data(DATA_KEY)) {
+      $target.stage(config);
+    }
+
+    $target.stage('toggle');
+  });
+
+  return Stage;
+}(jQuery);
+
+/**
+ * --------------------------------------------------------------------------
  * Bootstrap (v4.0.0): zoom.js
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * --------------------------------------------------------------------------
@@ -4448,14 +4669,14 @@ var Zoom = function ($) {
   var Data = {
     ZOOM: 'zoom',
     ZOOM_OUT: 'zoom-out'
+
+    /**
+     * ------------------------------------------------------------------------
+     * Class Definition
+     * ------------------------------------------------------------------------
+     */
+
   };
-
-  /**
-   * ------------------------------------------------------------------------
-   * Class Definition
-   * ------------------------------------------------------------------------
-   */
-
   var ZoomService = function () {
     function ZoomService(element, config) {
       _classCallCheck(this, ZoomService);
@@ -4732,228 +4953,5 @@ var Zoom = function ($) {
   $(function () {
     new ZoomService().listen();
   });
-}(jQuery);
-
-/**
- * --------------------------------------------------------------------------
- * Bootstrap (v4.0.0): stage.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * --------------------------------------------------------------------------
- */
-
-var Stage = function ($) {
-
-  /**
-   * ------------------------------------------------------------------------
-   * Constants
-   * ------------------------------------------------------------------------
-   */
-
-  var NAME = 'stage';
-  var DATA_KEY = 'bs.stage';
-  var VERSION = 'v4.0.0';
-  var DATA_API = '[data-toggle="stage"]';
-  var EVENT_KEY = '.' + DATA_KEY;
-  var DATA_API_KEY = '.data-api';
-  var JQUERY_NO_CONFLICT = $.fn[NAME];
-  var TRANSITION_DURATION = 150;
-
-  var Default = {
-    easing: 'cubic-bezier(.2,.7,.5,1)',
-    duration: 300,
-    delay: 0,
-    distance: 250,
-    hiddenElements: '#sidebar'
-  };
-
-  var Event = {
-    TOUCHMOVE: 'touchmove' + EVENT_KEY,
-    KEYDOWN: 'keydown' + EVENT_KEY,
-    OPEN: 'open' + EVENT_KEY,
-    OPENED: 'opened' + EVENT_KEY,
-    CLOSE: 'close' + EVENT_KEY,
-    CLOSED: 'closed' + EVENT_KEY,
-    CLICK: 'click' + EVENT_KEY,
-    CLICK_DATA_API: 'click' + EVENT_KEY + DATA_API_KEY
-  };
-
-  var ClassName = {
-    STAGE_OPEN: 'stage-open',
-    HIDDEN: 'hidden'
-  };
-
-  /**
-   * ------------------------------------------------------------------------
-   * Class Definition
-   * ------------------------------------------------------------------------
-   */
-
-  var Stage = function () {
-    function Stage(element, config) {
-      _classCallCheck(this, Stage);
-
-      if (!Util.supportsTransitionEnd()) return;
-
-      this._element = element;
-      this._config = config;
-    }
-
-    // getters
-
-    // private
-
-    Stage.prototype._isOpen = function _isOpen() {
-      return $(this._element).hasClass(ClassName.STAGE_OPEN);
-    };
-
-    Stage.prototype._complete = function _complete() {
-      $(document.body).css('overflow', 'auto');
-
-      if ('ontouchstart' in document.documentElement) {
-        $(document).off(Event.TOUCHMOVE);
-      }
-
-      $(this._config.hiddenElements).addClass(ClassName.HIDDEN);
-
-      $(this._element).removeClass(ClassName.STAGE_OPEN).css({
-        '-webkit-transition': '',
-        '-ms-transition': '',
-        'transition': ''
-      }).css({
-        '-webkit-transform': '',
-        '-ms-transform': '',
-        'transform': ''
-      }).trigger(Event.CLOSED);
-    };
-
-    // public
-
-    Stage.prototype.toggle = function toggle() {
-      if (this._isOpen()) {
-        this.close();
-      } else {
-        this.open();
-      }
-    };
-
-    Stage.prototype.open = function open() {
-      var _this29 = this;
-
-      $(document.body).css('overflow', 'hidden');
-
-      if ('ontouchstart' in document.documentElement) {
-        $(document).on(Event.TOUCHMOVE, function (e) {
-          e.preventDefault();
-        });
-      }
-
-      $(this._config.hiddenElements).removeClass(ClassName.HIDDEN);
-
-      $(window).one(Event.KEYDOWN, $.proxy(function (e) {
-        e.which == 27 && this.close();
-      }, this));
-
-      $(this._element).on(Event.CLICK, $.proxy(this.close, this)).trigger(Event.OPEN).addClass(ClassName.STAGE_OPEN);
-
-      if (!Util.supportsTransitionEnd()) {
-        $(this._element).css({
-          'left': this._config.distance + 'px',
-          'position': 'relative'
-        }).trigger(Event.OPENED);
-        return;
-      }
-
-      $(this._element).css({
-        '-webkit-transition': '-webkit-transform ' + this._config.duration + 'ms ' + this._config.easing,
-        '-ms-transition': '-ms-transform ' + this._config.duration + 'ms ' + this._config.easing,
-        'transition': 'transform ' + this._config.duration + 'ms ' + this._config.easing
-      });
-
-      this._element.offsetWidth; // force reflow
-
-      $(this._element).css({
-        '-webkit-transform': 'translateX(' + this._config.distance + 'px)',
-        '-ms-transform': 'translateX(' + this._config.distance + 'px)',
-        'transform': 'translateX(' + this._config.distance + 'px)'
-      }).one(Util.TRANSITION_END, function () {
-        $(_this29._element).trigger(Event.OPENED);
-      }).emulateTransitionEnd(this._config.duration);
-    };
-
-    Stage.prototype.close = function close() {
-      $(window).off(Event.KEYDOWN);
-
-      if (!Util.supportsTransitionEnd()) {
-        $(this._element).trigger(Event.CLOSE).css({ 'left': '', 'position': '' }).off(Event.CLICK);
-
-        return this._complete();
-      }
-
-      $(this._element).trigger(Event.CLOSE).off(Event.CLICK).css({
-        '-webkit-transform': 'none',
-        '-ms-transform': 'none',
-        'transform': 'none'
-      }).one(Util.TRANSITION_END, $.proxy(this._complete, this)).emulateTransitionEnd(this._config.duration);
-    };
-
-    // static
-
-    Stage._jQueryInterface = function _jQueryInterface(config) {
-      return this.each(function () {
-        var $this = $(this);
-        var data = $this.data(DATA_KEY);
-        var _config = $.extend({}, Default, $this.data(), (typeof config === 'undefined' ? 'undefined' : _typeof(config)) === 'object' && config);
-
-        if (!data) $this.data(DATA_KEY, data = new Stage(this, _config));
-        if (typeof config === 'string') data[config]();
-      });
-    };
-
-    _createClass(Stage, null, [{
-      key: 'VERSION',
-      get: function get() {
-        return VERSION;
-      }
-    }, {
-      key: 'Default',
-      get: function get() {
-        return Default;
-      }
-    }]);
-
-    return Stage;
-  }();
-
-  /**
-   * ------------------------------------------------------------------------
-   * jQuery
-   * ------------------------------------------------------------------------
-   */
-
-  $.fn[NAME] = Stage._jQueryInterface;
-  $.fn[NAME].Constructor = Stage;
-  $.fn[NAME].noConflict = function () {
-    $.fn[NAME] = JQUERY_NO_CONFLICT;
-    return Stage._jQueryInterface;
-  };
-
-  /**
-   * ------------------------------------------------------------------------
-   * Data Api implementation
-   * ------------------------------------------------------------------------
-   */
-
-  $(document).on(Event.CLICK_DATA_API, DATA_API, function () {
-    var config = $(this).data();
-    var $target = $(this.getAttribute('data-target'));
-
-    if (!$target.data(DATA_KEY)) {
-      $target.stage(config);
-    }
-
-    $target.stage('toggle');
-  });
-
-  return Stage;
 }(jQuery);
 }();
