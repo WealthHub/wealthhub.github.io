@@ -58,14 +58,14 @@ gulp.task('watch', function () {
   gulp.watch(Paths.JS,   ['js-min']);
 })
 
-gulp.task('docs', ['server'], function () {
+gulp.task('site', ['server'], function () {
   gulp.src(__filename)
     .pipe(open({uri: 'http://localhost:9001/'}))
 })
 
 gulp.task('server', function () {
   connect.server({
-    root: 'docs',
+    root: '../site',
     port: 9001,
     livereload: true
   })
